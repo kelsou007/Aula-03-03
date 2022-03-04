@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+    <title>Quem somos</title>
+    <style>
+   a:link {
+      color: white;
+    }
+     a:visited  {
+        color: white;
+      }
+ </style>
+  </head>
+   <body  style="background-color: #002c2e; color: white">
+  
+      <img src="http://codeworker.com.br/wp-content/uploads/2022/01/codeworker-logo.png"> 
+   
+    
+   <h1 > Minha empresa de desenvolvimento de sistemas</h1>
+   <a href="index.html"> Início</a>
+    <hr>
+   <h2> Fale conosco</h2>
+  <form>
+  <label for="fname">Nome:</label><br>
+  <input type="text" id="fname" name="fname" value=""
+    placeholder="Digite seu nome"
+    ><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="lname" value="">
+ <br></br>
+    <label for="idade">Idade:</label><br>
+  <input type="number" id="idade" name="lname" value=""><br>
+    <br><br>
+  <input type="submit" id="enviar" value="Submit">
+</form> 
+  </body>
+</html>
